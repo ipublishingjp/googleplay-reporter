@@ -13,6 +13,7 @@
     ],
     "repositories": [
         {
+            "name": "snscripts/result",
             "type": "vcs",
             "url": "https://github.com/ipublishingjp/result"
         }
