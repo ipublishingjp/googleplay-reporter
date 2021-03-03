@@ -153,7 +153,7 @@ class Reporter
             $this->lastResult = Result::fail(
                 Result::ERROR,
                 $e->getMessage(),
-                [],
+                [$e],
                 [],
                 $e
             );
